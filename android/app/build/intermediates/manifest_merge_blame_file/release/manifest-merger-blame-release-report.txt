@@ -1,0 +1,716 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.servatafarinan"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:4:5-67
+11-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:5:5-65
+12-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:5:22-62
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:6:5-80
+13-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:6:22-77
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:7:5-81
+14-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:7:22-78
+15    <uses-permission android:name="android.permission.WAKE_LOCK" />
+15-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:8:5-68
+15-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:8:22-65
+16
+17    <permission
+17-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:9:5-112
+18        android:name="com.servatafarinan.permission.C2D_MESSAGE"
+18-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:9:17-73
+19        android:protectionLevel="signature" />
+19-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:9:74-109
+20
+21    <uses-permission android:name="com.servatafarinan.permission.C2D_MESSAGE" />
+21-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:10:5-81
+21-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:10:22-78
+22    <uses-permission android:name="android.permission.VIBRATE" />
+22-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:11:5-66
+22-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:11:22-63
+23    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+23-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:12:5-81
+23-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:12:22-78
+24
+25    <uses-feature
+25-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:13:5-85
+26        android:name="android.hardware.camera"
+26-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:13:19-57
+27        android:required="false" />
+27-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:13:58-82
+28    <uses-feature
+28-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:14:5-91
+29        android:name="android.hardware.camera.front"
+29-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:14:19-63
+30        android:required="false" />
+30-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:14:64-88
+31
+32    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+32-->[:react-native-community_netinfo] D:\servat\servatafarinan_app\node_modules\@react-native-community\netinfo\android\build\intermediates\library_manifest\release\AndroidManifest.xml:9:5-79
+32-->[:react-native-community_netinfo] D:\servat\servatafarinan_app\node_modules\@react-native-community\netinfo\android\build\intermediates\library_manifest\release\AndroidManifest.xml:9:22-76
+33    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+33-->[:react-native-community_netinfo] D:\servat\servatafarinan_app\node_modules\@react-native-community\netinfo\android\build\intermediates\library_manifest\release\AndroidManifest.xml:10:5-76
+33-->[:react-native-community_netinfo] D:\servat\servatafarinan_app\node_modules\@react-native-community\netinfo\android\build\intermediates\library_manifest\release\AndroidManifest.xml:10:22-73
+34
+35    <queries>
+35-->[:react-native-image-crop-picker] D:\servat\servatafarinan_app\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\release\AndroidManifest.xml:10:5-14:15
+36        <intent>
+36-->[:react-native-image-crop-picker] D:\servat\servatafarinan_app\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\release\AndroidManifest.xml:11:9-13:18
+37            <action android:name="android.media.action.IMAGE_CAPTURE" />
+37-->[:react-native-image-crop-picker] D:\servat\servatafarinan_app\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\release\AndroidManifest.xml:12:13-73
+37-->[:react-native-image-crop-picker] D:\servat\servatafarinan_app\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\release\AndroidManifest.xml:12:21-70
+38        </intent>
+39    </queries> <!-- Required to access Google Play Licensing -->
+40    <uses-permission android:name="com.android.vending.CHECK_LICENSE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+40-->[:rn-fetch-blob] D:\servat\servatafarinan_app\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\release\AndroidManifest.xml:12:5-73
+40-->[:rn-fetch-blob] D:\servat\servatafarinan_app\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\release\AndroidManifest.xml:12:22-70
+41    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" /> <!-- for android -->
+41-->[com.google.android.gms:play-services-iid:17.0.0] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\1fdcf7a07c900a12de3b17c9533bc240\jetified-play-services-iid-17.0.0\AndroidManifest.xml:23:5-82
+41-->[com.google.android.gms:play-services-iid:17.0.0] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\1fdcf7a07c900a12de3b17c9533bc240\jetified-play-services-iid-17.0.0\AndroidManifest.xml:23:22-79
+42    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
+43    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
+44    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
+45    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
+46    <!-- for Samsung -->
+47    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+47-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\7cd3daccf6dab4dc3287b37b1ad26cb9\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:19:5-86
+47-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\7cd3daccf6dab4dc3287b37b1ad26cb9\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:19:22-83
+48    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
+48-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\7cd3daccf6dab4dc3287b37b1ad26cb9\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:20:5-87
+48-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\7cd3daccf6dab4dc3287b37b1ad26cb9\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:20:22-84
+49    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+49-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\7cd3daccf6dab4dc3287b37b1ad26cb9\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:23:5-81
+49-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\7cd3daccf6dab4dc3287b37b1ad26cb9\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:23:22-78
+50    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
+50-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\7cd3daccf6dab4dc3287b37b1ad26cb9\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:24:5-83
+50-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\7cd3daccf6dab4dc3287b37b1ad26cb9\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:24:22-80
+51    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+51-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\7cd3daccf6dab4dc3287b37b1ad26cb9\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:27:5-88
+51-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\7cd3daccf6dab4dc3287b37b1ad26cb9\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:27:22-85
+52    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
+52-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\7cd3daccf6dab4dc3287b37b1ad26cb9\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:28:5-92
+52-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\7cd3daccf6dab4dc3287b37b1ad26cb9\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:28:22-89
+53    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
+53-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\7cd3daccf6dab4dc3287b37b1ad26cb9\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:31:5-84
+53-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\7cd3daccf6dab4dc3287b37b1ad26cb9\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:31:22-81
+54    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
+54-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\7cd3daccf6dab4dc3287b37b1ad26cb9\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:34:5-83
+54-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\7cd3daccf6dab4dc3287b37b1ad26cb9\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:34:22-80
+55    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+55-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\7cd3daccf6dab4dc3287b37b1ad26cb9\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:37:5-91
+55-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\7cd3daccf6dab4dc3287b37b1ad26cb9\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:37:22-88
+56    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+56-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\7cd3daccf6dab4dc3287b37b1ad26cb9\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:38:5-92
+56-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\7cd3daccf6dab4dc3287b37b1ad26cb9\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:38:22-89
+57    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
+57-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\7cd3daccf6dab4dc3287b37b1ad26cb9\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:39:5-93
+57-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\7cd3daccf6dab4dc3287b37b1ad26cb9\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:39:22-90
+58    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
+58-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\7cd3daccf6dab4dc3287b37b1ad26cb9\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:42:5-73
+58-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\7cd3daccf6dab4dc3287b37b1ad26cb9\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:42:22-70
+59    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+59-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\7cd3daccf6dab4dc3287b37b1ad26cb9\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:45:5-82
+59-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\7cd3daccf6dab4dc3287b37b1ad26cb9\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:45:22-79
+60    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
+60-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\7cd3daccf6dab4dc3287b37b1ad26cb9\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:46:5-83
+60-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\7cd3daccf6dab4dc3287b37b1ad26cb9\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:46:22-80
+61    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+61-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\7cd3daccf6dab4dc3287b37b1ad26cb9\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:49:5-88
+61-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\7cd3daccf6dab4dc3287b37b1ad26cb9\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:49:22-85
+62    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+62-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\7cd3daccf6dab4dc3287b37b1ad26cb9\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:50:5-89
+62-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\7cd3daccf6dab4dc3287b37b1ad26cb9\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:50:22-86
+63    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+63-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\131fb59362cae88584ae8cf6bd3cdbc5\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:26:5-110
+63-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\131fb59362cae88584ae8cf6bd3cdbc5\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:26:22-107
+64
+65    <application
+65-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:15:5-88:19
+66        android:name="com.servatafarinan.MainApplication"
+66-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:15:19-50
+67        android:allowBackup="false"
+67-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:15:201-228
+68        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+68-->[androidx.core:core:1.3.2] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\7b5c5911f48273b565d8abd9090cd594\core-1.3.2\AndroidManifest.xml:24:18-86
+69        android:icon="@mipmap/ic_launcher"
+69-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:15:120-154
+70        android:label="@string/app_name"
+70-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:15:51-83
+71        android:requestLegacyExternalStorage="true"
+71-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:15:229-272
+72        android:roundIcon="@mipmap/ic_launcher_round"
+72-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:15:155-200
+73        android:theme="@style/AppTheme"
+73-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:15:273-304
+74        android:usesCleartextTraffic="true" >
+74-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:15:84-119
+75        <activity
+75-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:16:9-28:20
+76            android:name="com.servatafarinan.MainActivity"
+76-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:16:19-47
+77            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+77-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:16:81-158
+78            android:label="@string/app_name"
+78-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:16:48-80
+79            android:launchMode="singleTask"
+79-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:16:159-190
+80            android:windowSoftInputMode="adjustResize" >
+80-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:16:191-233
+81            <intent-filter>
+81-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:17:13-21:29
+82                <action android:name="android.intent.action.MAIN" />
+82-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:18:17-69
+82-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:18:25-66
+83
+84                <category android:name="android.intent.category.LAUNCHER" />
+84-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:19:17-77
+84-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:19:27-74
+85
+86                <action android:name="android.intent.action.DOWNLOAD_COMPLETE" />
+86-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:20:17-82
+86-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:20:25-79
+87            </intent-filter>
+88            <intent-filter android:label="filter_react_native" >
+88-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:22:13-27:29
+88-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:22:28-63
+89                <action android:name="android.intent.action.VIEW" />
+89-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:23:17-69
+89-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:23:25-66
+90
+91                <category android:name="android.intent.category.DEFAULT" />
+91-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:24:17-76
+91-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:24:27-73
+92                <category android:name="android.intent.category.BROWSABLE" />
+92-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:25:17-78
+92-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:25:27-75
+93
+94                <data
+94-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:26:17-80
+95                    android:host="payment"
+95-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:26:55-77
+96                    android:scheme="servatafarinan" />
+96-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:26:23-54
+97            </intent-filter>
+98        </activity>
+99        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+99-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:30:9-86
+99-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:30:19-83
+100
+101        <!-- Change the value to true to enable pop-up for in foreground (remote-only, for local use ignoreInForeground) -->
+102        <meta-data
+102-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:33:9-120
+103            android:name="com.dieam.reactnativepushnotification.notification_foreground"
+103-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:33:20-96
+104            android:value="true" />
+104-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:33:97-117
+105        <!-- Change the resource name to your App's accent color - or any other color you want -->
+106        <meta-data
+106-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:35:9-126
+107            android:name="com.dieam.reactnativepushnotification.notification_color"
+107-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:35:20-91
+108            android:resource="@color/white" /> <!-- or @android:color/{name} to use a standard color -->
+108-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:35:92-123
+109
+110        <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationActions" />
+110-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:37:9-108
+110-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:37:19-105
+111        <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationPublisher" />
+111-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:38:9-110
+111-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:38:19-107
+112        <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationBootEventReceiver" >
+112-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:39:9-45:20
+112-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:39:19-115
+113            <intent-filter>
+113-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:40:13-44:29
+114                <action android:name="android.intent.action.BOOT_COMPLETED" />
+114-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:41:17-79
+114-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:41:25-76
+115                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+115-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:42:17-82
+115-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:42:25-79
+116                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+116-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:43:17-82
+116-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:43:25-79
+117            </intent-filter>
+118        </receiver>
+119
+120        <service
+120-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:47:9-51:19
+121            android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationListenerService"
+121-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:47:18-112
+122            android:exported="false" >
+122-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:47:113-137
+123            <intent-filter>
+123-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:48:13-50:29
+124                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+124-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:49:17-78
+124-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:49:25-75
+125            </intent-filter>
+126        </service>
+127        <!-- firebase -->
+128
+129
+130        <!-- If we want to schedule local notifications, we must also add the following -->
+131
+132        <receiver android:name="io.invertase.firebase.notifications.RNFirebaseNotificationReceiver" />
+132-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:56:1-94
+132-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:56:11-92
+133        <receiver
+133-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:57:1-67:12
+134            android:name="io.invertase.firebase.notifications.RNFirebaseNotificationsRebootReceiver"
+134-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:60:3-91
+135            android:enabled="true"
+135-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:58:3-25
+136            android:exported="true" >
+136-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:59:3-26
+137            <intent-filter>
+137-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:61:3-66:19
+138                <action android:name="android.intent.action.BOOT_COMPLETED" />
+138-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:41:17-79
+138-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:41:25-76
+139                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+139-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:42:17-82
+139-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:42:25-79
+140                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+140-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:43:17-82
+140-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:43:25-79
+141
+142                <category android:name="android.intent.category.DEFAULT" />
+142-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:24:17-76
+142-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:24:27-73
+143            </intent-filter>
+144        </receiver>
+145        <receiver
+145-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:68:1-72:12
+146            android:name="io.invertase.firebase.notifications.RNFirebaseBackgroundNotificationActionReceiver"
+146-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:68:11-108
+147            android:exported="true" >
+147-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:68:109-132
+148            <intent-filter>
+148-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:69:1-71:17
+149                <action android:name="io.invertase.firebase.notifications.BackgroundAction" />
+149-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:70:3-80
+149-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:70:11-78
+150            </intent-filter>
+151        </receiver>
+152
+153        <service android:name="io.invertase.firebase.notifications.RNFirebaseBackgroundNotificationActionsService" />
+153-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:73:1-109
+153-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:73:10-107
+154        <service android:name="io.invertase.firebase.messaging.RNFirebaseMessagingService" >
+154-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:76:9-80:19
+154-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:76:18-91
+155            <intent-filter>
+155-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:48:13-50:29
+156                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+156-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:49:17-78
+156-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:49:25-75
+157            </intent-filter>
+158        </service>
+159
+160        <!-- Background Messages (Optional) -->
+161
+162        <service android:name="io.invertase.firebase.messaging.RNFirebaseBackgroundMessagingService" />
+162-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:84:9-104
+162-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:84:18-101
+163        <!-- firebase -->
+164
+165        <meta-data
+165-->[:react-native-firebase_analytics] D:\servat\servatafarinan_app\node_modules\@react-native-firebase\analytics\android\build\intermediates\library_manifest\release\AndroidManifest.xml:16:9-18:36
+166            android:name="firebase_analytics_collection_enabled"
+166-->[:react-native-firebase_analytics] D:\servat\servatafarinan_app\node_modules\@react-native-firebase\analytics\android\build\intermediates\library_manifest\release\AndroidManifest.xml:17:13-65
+167            android:value="true" /> <!-- Disable crashlytics by default so we can custom init with CrashlyticsNdk support -->
+167-->[:react-native-firebase_analytics] D:\servat\servatafarinan_app\node_modules\@react-native-firebase\analytics\android\build\intermediates\library_manifest\release\AndroidManifest.xml:18:13-33
+168        <meta-data
+168-->[:react-native-firebase_crashlytics] D:\servat\servatafarinan_app\node_modules\@react-native-firebase\crashlytics\android\build\intermediates\library_manifest\release\AndroidManifest.xml:14:9-16:37
+169            android:name="firebase_crashlytics_collection_enabled"
+169-->[:react-native-firebase_crashlytics] D:\servat\servatafarinan_app\node_modules\@react-native-firebase\crashlytics\android\build\intermediates\library_manifest\release\AndroidManifest.xml:15:13-67
+170            android:value="false" />
+170-->[:react-native-firebase_crashlytics] D:\servat\servatafarinan_app\node_modules\@react-native-firebase\crashlytics\android\build\intermediates\library_manifest\release\AndroidManifest.xml:16:13-34
+171
+172        <provider
+172-->[:react-native-firebase_crashlytics] D:\servat\servatafarinan_app\node_modules\@react-native-firebase\crashlytics\android\build\intermediates\library_manifest\release\AndroidManifest.xml:18:9-22:38
+173            android:name="io.invertase.firebase.crashlytics.ReactNativeFirebaseCrashlyticsInitProvider"
+173-->[:react-native-firebase_crashlytics] D:\servat\servatafarinan_app\node_modules\@react-native-firebase\crashlytics\android\build\intermediates\library_manifest\release\AndroidManifest.xml:19:13-104
+174            android:authorities="com.servatafarinan.reactnativefirebasecrashlyticsinitprovider"
+174-->[:react-native-firebase_crashlytics] D:\servat\servatafarinan_app\node_modules\@react-native-firebase\crashlytics\android\build\intermediates\library_manifest\release\AndroidManifest.xml:20:13-94
+175            android:exported="false"
+175-->[:react-native-firebase_crashlytics] D:\servat\servatafarinan_app\node_modules\@react-native-firebase\crashlytics\android\build\intermediates\library_manifest\release\AndroidManifest.xml:21:13-37
+176            android:initOrder="98" />
+176-->[:react-native-firebase_crashlytics] D:\servat\servatafarinan_app\node_modules\@react-native-firebase\crashlytics\android\build\intermediates\library_manifest\release\AndroidManifest.xml:22:13-35
+177
+178        <service android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService" />
+178-->[:react-native-firebase_messaging] D:\servat\servatafarinan_app\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\release\AndroidManifest.xml:16:9-111
+178-->[:react-native-firebase_messaging] D:\servat\servatafarinan_app\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\release\AndroidManifest.xml:16:18-108
+179        <service
+179-->[:react-native-firebase_messaging] D:\servat\servatafarinan_app\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\release\AndroidManifest.xml:17:9-23:19
+180            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService"
+180-->[:react-native-firebase_messaging] D:\servat\servatafarinan_app\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\release\AndroidManifest.xml:18:13-95
+181            android:exported="false" >
+181-->[:react-native-firebase_messaging] D:\servat\servatafarinan_app\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\release\AndroidManifest.xml:19:13-37
+182            <intent-filter>
+182-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:48:13-50:29
+183                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+183-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:49:17-78
+183-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:49:25-75
+184            </intent-filter>
+185        </service>
+186
+187        <receiver
+187-->[:react-native-firebase_messaging] D:\servat\servatafarinan_app\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\release\AndroidManifest.xml:25:9-32:20
+188            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver"
+188-->[:react-native-firebase_messaging] D:\servat\servatafarinan_app\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\release\AndroidManifest.xml:26:13-96
+189            android:exported="true"
+189-->[:react-native-firebase_messaging] D:\servat\servatafarinan_app\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\release\AndroidManifest.xml:27:13-36
+190            android:permission="com.google.android.c2dm.permission.SEND" >
+190-->[:react-native-firebase_messaging] D:\servat\servatafarinan_app\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\release\AndroidManifest.xml:28:13-73
+191            <intent-filter>
+191-->[:react-native-firebase_messaging] D:\servat\servatafarinan_app\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\release\AndroidManifest.xml:29:13-31:29
+192                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+192-->[:react-native-firebase_messaging] D:\servat\servatafarinan_app\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\release\AndroidManifest.xml:30:17-81
+192-->[:react-native-firebase_messaging] D:\servat\servatafarinan_app\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\release\AndroidManifest.xml:30:25-78
+193            </intent-filter>
+194        </receiver>
+195
+196        <meta-data
+196-->[:react-native-firebase_messaging] D:\servat\servatafarinan_app\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\release\AndroidManifest.xml:34:9-36:36
+197            android:name="firebase_messaging_auto_init_enabled"
+197-->[:react-native-firebase_messaging] D:\servat\servatafarinan_app\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\release\AndroidManifest.xml:35:13-64
+198            android:value="true" />
+198-->[:react-native-firebase_messaging] D:\servat\servatafarinan_app\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\release\AndroidManifest.xml:36:13-33
+199        <meta-data
+199-->[:react-native-firebase_messaging] D:\servat\servatafarinan_app\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\release\AndroidManifest.xml:37:9-39:32
+200            android:name="com.google.firebase.messaging.default_notification_channel_id"
+200-->[:react-native-firebase_messaging] D:\servat\servatafarinan_app\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\release\AndroidManifest.xml:38:13-89
+201            android:value="" />
+201-->[:react-native-firebase_messaging] D:\servat\servatafarinan_app\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\release\AndroidManifest.xml:39:13-29
+202        <meta-data
+202-->[:react-native-firebase_messaging] D:\servat\servatafarinan_app\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\release\AndroidManifest.xml:40:9-42:47
+203            android:name="com.google.firebase.messaging.default_notification_color"
+203-->[:react-native-firebase_messaging] D:\servat\servatafarinan_app\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\release\AndroidManifest.xml:41:13-84
+204            android:resource="@color/white" />
+204-->[:react-native-firebase_messaging] D:\servat\servatafarinan_app\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\release\AndroidManifest.xml:42:13-44
+205
+206        <receiver
+206-->[:react-native-device-info] D:\servat\servatafarinan_app\node_modules\react-native-device-info\android\build\intermediates\library_manifest\release\AndroidManifest.xml:13:9-22:20
+207            android:name="com.learnium.RNDeviceInfo.RNDeviceReceiver"
+207-->[:react-native-device-info] D:\servat\servatafarinan_app\node_modules\react-native-device-info\android\build\intermediates\library_manifest\release\AndroidManifest.xml:14:13-70
+208            android:enabled="true"
+208-->[:react-native-device-info] D:\servat\servatafarinan_app\node_modules\react-native-device-info\android\build\intermediates\library_manifest\release\AndroidManifest.xml:15:13-35
+209            android:exported="true"
+209-->[:react-native-device-info] D:\servat\servatafarinan_app\node_modules\react-native-device-info\android\build\intermediates\library_manifest\release\AndroidManifest.xml:16:13-36
+210            android:permission="android.permission.INSTALL_PACKAGES" >
+210-->[:react-native-device-info] D:\servat\servatafarinan_app\node_modules\react-native-device-info\android\build\intermediates\library_manifest\release\AndroidManifest.xml:17:13-69
+211            <intent-filter>
+211-->[:react-native-device-info] D:\servat\servatafarinan_app\node_modules\react-native-device-info\android\build\intermediates\library_manifest\release\AndroidManifest.xml:19:13-21:29
+212                <action android:name="com.android.vending.INSTALL_REFERRER" />
+212-->[:react-native-device-info] D:\servat\servatafarinan_app\node_modules\react-native-device-info\android\build\intermediates\library_manifest\release\AndroidManifest.xml:20:17-79
+212-->[:react-native-device-info] D:\servat\servatafarinan_app\node_modules\react-native-device-info\android\build\intermediates\library_manifest\release\AndroidManifest.xml:20:25-76
+213            </intent-filter>
+214        </receiver>
+215
+216        <provider
+216-->[:react-native-file-viewer] D:\servat\servatafarinan_app\node_modules\react-native-file-viewer\android\build\intermediates\library_manifest\release\AndroidManifest.xml:12:9-20:20
+217            android:name="com.vinzscam.reactnativefileviewer.FileProvider"
+217-->[:react-native-file-viewer] D:\servat\servatafarinan_app\node_modules\react-native-file-viewer\android\build\intermediates\library_manifest\release\AndroidManifest.xml:13:13-75
+218            android:authorities="com.servatafarinan.provider"
+218-->[:react-native-file-viewer] D:\servat\servatafarinan_app\node_modules\react-native-file-viewer\android\build\intermediates\library_manifest\release\AndroidManifest.xml:14:13-60
+219            android:exported="false"
+219-->[:react-native-file-viewer] D:\servat\servatafarinan_app\node_modules\react-native-file-viewer\android\build\intermediates\library_manifest\release\AndroidManifest.xml:15:13-37
+220            android:grantUriPermissions="true" >
+220-->[:react-native-file-viewer] D:\servat\servatafarinan_app\node_modules\react-native-file-viewer\android\build\intermediates\library_manifest\release\AndroidManifest.xml:16:13-47
+221            <meta-data
+221-->[:react-native-file-viewer] D:\servat\servatafarinan_app\node_modules\react-native-file-viewer\android\build\intermediates\library_manifest\release\AndroidManifest.xml:17:13-19:70
+222                android:name="android.support.FILE_PROVIDER_PATHS"
+222-->[:react-native-file-viewer] D:\servat\servatafarinan_app\node_modules\react-native-file-viewer\android\build\intermediates\library_manifest\release\AndroidManifest.xml:18:17-67
+223                android:resource="@xml/file_viewer_provider_paths" />
+223-->[:react-native-file-viewer] D:\servat\servatafarinan_app\node_modules\react-native-file-viewer\android\build\intermediates\library_manifest\release\AndroidManifest.xml:19:17-67
+224        </provider>
+225        <provider
+225-->[:react-native-image-crop-picker] D:\servat\servatafarinan_app\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\release\AndroidManifest.xml:19:9-27:20
+226            android:name="androidx.core.content.FileProvider"
+226-->[:react-native-image-crop-picker] D:\servat\servatafarinan_app\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\release\AndroidManifest.xml:20:13-62
+227            android:authorities="com.servatafarinan.provider"
+227-->[:react-native-image-crop-picker] D:\servat\servatafarinan_app\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\release\AndroidManifest.xml:21:13-60
+228            android:exported="false"
+228-->[:react-native-image-crop-picker] D:\servat\servatafarinan_app\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\release\AndroidManifest.xml:22:13-37
+229            android:grantUriPermissions="true" >
+229-->[:react-native-image-crop-picker] D:\servat\servatafarinan_app\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\release\AndroidManifest.xml:23:13-47
+230            <meta-data
+230-->[:react-native-file-viewer] D:\servat\servatafarinan_app\node_modules\react-native-file-viewer\android\build\intermediates\library_manifest\release\AndroidManifest.xml:17:13-19:70
+231                android:name="android.support.FILE_PROVIDER_PATHS"
+231-->[:react-native-file-viewer] D:\servat\servatafarinan_app\node_modules\react-native-file-viewer\android\build\intermediates\library_manifest\release\AndroidManifest.xml:18:17-67
+232                android:resource="@xml/provider_paths" />
+232-->[:react-native-file-viewer] D:\servat\servatafarinan_app\node_modules\react-native-file-viewer\android\build\intermediates\library_manifest\release\AndroidManifest.xml:19:17-67
+233        </provider>
+234
+235        <activity
+235-->[:react-native-image-crop-picker] D:\servat\servatafarinan_app\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\release\AndroidManifest.xml:29:9-31:72
+236            android:name="com.yalantis.ucrop.UCropActivity"
+236-->[:react-native-image-crop-picker] D:\servat\servatafarinan_app\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\release\AndroidManifest.xml:30:13-60
+237            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+237-->[:react-native-image-crop-picker] D:\servat\servatafarinan_app\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\release\AndroidManifest.xml:31:13-69
+238
+239        <provider
+239-->[:react-native-share] D:\servat\servatafarinan_app\node_modules\react-native-share\android\build\intermediates\library_manifest\release\AndroidManifest.xml:12:9-20:20
+240            android:name="cl.json.RNShareFileProvider"
+240-->[:react-native-share] D:\servat\servatafarinan_app\node_modules\react-native-share\android\build\intermediates\library_manifest\release\AndroidManifest.xml:13:13-55
+241            android:authorities="com.servatafarinan.rnshare.fileprovider"
+241-->[:react-native-share] D:\servat\servatafarinan_app\node_modules\react-native-share\android\build\intermediates\library_manifest\release\AndroidManifest.xml:14:13-72
+242            android:exported="false"
+242-->[:react-native-share] D:\servat\servatafarinan_app\node_modules\react-native-share\android\build\intermediates\library_manifest\release\AndroidManifest.xml:15:13-37
+243            android:grantUriPermissions="true" >
+243-->[:react-native-share] D:\servat\servatafarinan_app\node_modules\react-native-share\android\build\intermediates\library_manifest\release\AndroidManifest.xml:16:13-47
+244            <meta-data
+244-->[:react-native-file-viewer] D:\servat\servatafarinan_app\node_modules\react-native-file-viewer\android\build\intermediates\library_manifest\release\AndroidManifest.xml:17:13-19:70
+245                android:name="android.support.FILE_PROVIDER_PATHS"
+245-->[:react-native-file-viewer] D:\servat\servatafarinan_app\node_modules\react-native-file-viewer\android\build\intermediates\library_manifest\release\AndroidManifest.xml:18:17-67
+246                android:resource="@xml/share_download_paths" />
+246-->[:react-native-file-viewer] D:\servat\servatafarinan_app\node_modules\react-native-file-viewer\android\build\intermediates\library_manifest\release\AndroidManifest.xml:19:17-67
+247        </provider>
+248        <provider
+248-->[:react-native-webview] D:\servat\servatafarinan_app\node_modules\react-native-webview\android\build\intermediates\library_manifest\release\AndroidManifest.xml:12:9-20:20
+249            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+249-->[:react-native-webview] D:\servat\servatafarinan_app\node_modules\react-native-webview\android\build\intermediates\library_manifest\release\AndroidManifest.xml:13:13-83
+250            android:authorities="com.servatafarinan.fileprovider"
+250-->[:react-native-webview] D:\servat\servatafarinan_app\node_modules\react-native-webview\android\build\intermediates\library_manifest\release\AndroidManifest.xml:14:13-64
+251            android:exported="false"
+251-->[:react-native-webview] D:\servat\servatafarinan_app\node_modules\react-native-webview\android\build\intermediates\library_manifest\release\AndroidManifest.xml:15:13-37
+252            android:grantUriPermissions="true" >
+252-->[:react-native-webview] D:\servat\servatafarinan_app\node_modules\react-native-webview\android\build\intermediates\library_manifest\release\AndroidManifest.xml:16:13-47
+253            <meta-data
+253-->[:react-native-file-viewer] D:\servat\servatafarinan_app\node_modules\react-native-file-viewer\android\build\intermediates\library_manifest\release\AndroidManifest.xml:17:13-19:70
+254                android:name="android.support.FILE_PROVIDER_PATHS"
+254-->[:react-native-file-viewer] D:\servat\servatafarinan_app\node_modules\react-native-file-viewer\android\build\intermediates\library_manifest\release\AndroidManifest.xml:18:17-67
+255                android:resource="@xml/file_provider_paths" />
+255-->[:react-native-file-viewer] D:\servat\servatafarinan_app\node_modules\react-native-file-viewer\android\build\intermediates\library_manifest\release\AndroidManifest.xml:19:17-67
+256        </provider>
+257        <provider
+257-->[:rn-fetch-blob] D:\servat\servatafarinan_app\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\release\AndroidManifest.xml:36:9-44:20
+258            android:name="com.RNFetchBlob.Utils.FileProvider"
+258-->[:rn-fetch-blob] D:\servat\servatafarinan_app\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\release\AndroidManifest.xml:37:13-62
+259            android:authorities="com.servatafarinan.provider"
+259-->[:rn-fetch-blob] D:\servat\servatafarinan_app\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\release\AndroidManifest.xml:38:13-60
+260            android:exported="false"
+260-->[:rn-fetch-blob] D:\servat\servatafarinan_app\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\release\AndroidManifest.xml:39:13-37
+261            android:grantUriPermissions="true" >
+261-->[:rn-fetch-blob] D:\servat\servatafarinan_app\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\release\AndroidManifest.xml:40:13-47
+262            <meta-data
+262-->[:react-native-file-viewer] D:\servat\servatafarinan_app\node_modules\react-native-file-viewer\android\build\intermediates\library_manifest\release\AndroidManifest.xml:17:13-19:70
+263                android:name="android.support.FILE_PROVIDER_PATHS"
+263-->[:react-native-file-viewer] D:\servat\servatafarinan_app\node_modules\react-native-file-viewer\android\build\intermediates\library_manifest\release\AndroidManifest.xml:18:17-67
+264                android:resource="@xml/provider_paths" />
+264-->[:react-native-file-viewer] D:\servat\servatafarinan_app\node_modules\react-native-file-viewer\android\build\intermediates\library_manifest\release\AndroidManifest.xml:19:17-67
+265        </provider>
+266
+267        <activity
+267-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\c08896d4d9b444897a0ccf5eff193355\jetified-play-services-auth-19.2.0\AndroidManifest.xml:23:9-27:75
+268            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+268-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\c08896d4d9b444897a0ccf5eff193355\jetified-play-services-auth-19.2.0\AndroidManifest.xml:24:13-93
+269            android:excludeFromRecents="true"
+269-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\c08896d4d9b444897a0ccf5eff193355\jetified-play-services-auth-19.2.0\AndroidManifest.xml:25:13-46
+270            android:exported="false"
+270-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\c08896d4d9b444897a0ccf5eff193355\jetified-play-services-auth-19.2.0\AndroidManifest.xml:26:13-37
+271            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+271-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\c08896d4d9b444897a0ccf5eff193355\jetified-play-services-auth-19.2.0\AndroidManifest.xml:27:13-72
+272        <!--
+273            Service handling Google Sign-In user revocation. For apps that do not integrate with
+274            Google Sign-In, this service will never be started.
+275        -->
+276        <service
+276-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\c08896d4d9b444897a0ccf5eff193355\jetified-play-services-auth-19.2.0\AndroidManifest.xml:33:9-37:51
+277            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+277-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\c08896d4d9b444897a0ccf5eff193355\jetified-play-services-auth-19.2.0\AndroidManifest.xml:34:13-89
+278            android:exported="true"
+278-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\c08896d4d9b444897a0ccf5eff193355\jetified-play-services-auth-19.2.0\AndroidManifest.xml:35:13-36
+279            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+279-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\c08896d4d9b444897a0ccf5eff193355\jetified-play-services-auth-19.2.0\AndroidManifest.xml:36:13-107
+280            android:visibleToInstantApps="true" />
+280-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\c08896d4d9b444897a0ccf5eff193355\jetified-play-services-auth-19.2.0\AndroidManifest.xml:37:13-48
+281
+282        <activity
+282-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\44f008b2c72aa10486852d849b4165b8\jetified-play-services-base-17.5.0\AndroidManifest.xml:23:9-26:75
+283            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+283-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\44f008b2c72aa10486852d849b4165b8\jetified-play-services-base-17.5.0\AndroidManifest.xml:24:13-79
+284            android:exported="false"
+284-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\44f008b2c72aa10486852d849b4165b8\jetified-play-services-base-17.5.0\AndroidManifest.xml:25:13-37
+285            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+285-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\44f008b2c72aa10486852d849b4165b8\jetified-play-services-base-17.5.0\AndroidManifest.xml:26:13-72
+286
+287        <receiver
+287-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\39965ba96f58abd48da9e199afbfe2fe\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:28:9-35:20
+288            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+288-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\39965ba96f58abd48da9e199afbfe2fe\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:29:13-78
+289            android:exported="true"
+289-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\39965ba96f58abd48da9e199afbfe2fe\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:30:13-36
+290            android:permission="com.google.android.c2dm.permission.SEND" >
+290-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\39965ba96f58abd48da9e199afbfe2fe\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:31:13-73
+291            <intent-filter>
+291-->[:react-native-firebase_messaging] D:\servat\servatafarinan_app\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\release\AndroidManifest.xml:29:13-31:29
+292                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+292-->[:react-native-firebase_messaging] D:\servat\servatafarinan_app\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\release\AndroidManifest.xml:30:17-81
+292-->[:react-native-firebase_messaging] D:\servat\servatafarinan_app\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\release\AndroidManifest.xml:30:25-78
+293            </intent-filter>
+294        </receiver>
+295        <!--
+296             FirebaseMessagingService performs security checks at runtime,
+297             but set to not exported to explicitly avoid allowing another app to call it.
+298        -->
+299        <service
+299-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\39965ba96f58abd48da9e199afbfe2fe\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:41:9-48:19
+300            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+300-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\39965ba96f58abd48da9e199afbfe2fe\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:42:13-82
+301            android:directBootAware="true"
+301-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\39965ba96f58abd48da9e199afbfe2fe\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:43:13-43
+302            android:exported="false" >
+302-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\39965ba96f58abd48da9e199afbfe2fe\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:44:13-37
+303            <intent-filter android:priority="-500" >
+303-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:48:13-50:29
+304                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+304-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:49:17-78
+304-->D:\servat\servatafarinan_app\android\app\src\main\AndroidManifest.xml:49:25-75
+305            </intent-filter>
+306        </service>
+307        <service
+307-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\39965ba96f58abd48da9e199afbfe2fe\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:49:9-55:19
+308            android:name="com.google.firebase.components.ComponentDiscoveryService"
+308-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\39965ba96f58abd48da9e199afbfe2fe\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:50:13-84
+309            android:directBootAware="true"
+309-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\e6268ea9a6396d5ccd837a59227ce30d\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+310            android:exported="false" >
+310-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\39965ba96f58abd48da9e199afbfe2fe\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:51:13-37
+311            <meta-data
+311-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\39965ba96f58abd48da9e199afbfe2fe\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:52:13-54:85
+312                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+312-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\39965ba96f58abd48da9e199afbfe2fe\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:53:17-119
+313                android:value="com.google.firebase.components.ComponentRegistrar" />
+313-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\39965ba96f58abd48da9e199afbfe2fe\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:54:17-82
+314            <meta-data
+314-->[com.google.firebase:firebase-crashlytics-ndk:18.2.0] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\fefa599e567da5a115c10ddb749df4f1\jetified-firebase-crashlytics-ndk-18.2.0\AndroidManifest.xml:35:13-37:85
+315                android:name="com.google.firebase.components:com.google.firebase.crashlytics.ndk.CrashlyticsNdkRegistrar"
+315-->[com.google.firebase:firebase-crashlytics-ndk:18.2.0] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\fefa599e567da5a115c10ddb749df4f1\jetified-firebase-crashlytics-ndk-18.2.0\AndroidManifest.xml:36:17-122
+316                android:value="com.google.firebase.components.ComponentRegistrar" />
+316-->[com.google.firebase:firebase-crashlytics-ndk:18.2.0] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\fefa599e567da5a115c10ddb749df4f1\jetified-firebase-crashlytics-ndk-18.2.0\AndroidManifest.xml:37:17-82
+317            <meta-data
+317-->[com.google.firebase:firebase-crashlytics:18.2.0] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\bea9a303ca6fca4642f20c7e5dfa4f16\jetified-firebase-crashlytics-18.2.0\AndroidManifest.xml:18:13-20:85
+318                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+318-->[com.google.firebase:firebase-crashlytics:18.2.0] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\bea9a303ca6fca4642f20c7e5dfa4f16\jetified-firebase-crashlytics-18.2.0\AndroidManifest.xml:19:17-115
+319                android:value="com.google.firebase.components.ComponentRegistrar" />
+319-->[com.google.firebase:firebase-crashlytics:18.2.0] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\bea9a303ca6fca4642f20c7e5dfa4f16\jetified-firebase-crashlytics-18.2.0\AndroidManifest.xml:20:17-82
+320            <meta-data
+320-->[com.google.firebase:firebase-datatransport:18.0.0] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\57ddea31d0f5323fc97f81a94eccb34d\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:28:13-30:85
+321                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+321-->[com.google.firebase:firebase-datatransport:18.0.0] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\57ddea31d0f5323fc97f81a94eccb34d\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:29:17-115
+322                android:value="com.google.firebase.components.ComponentRegistrar" />
+322-->[com.google.firebase:firebase-datatransport:18.0.0] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\57ddea31d0f5323fc97f81a94eccb34d\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:30:17-82
+323            <meta-data
+323-->[com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\224d0ddd60dee798f42b6baf8f5a3f14\jetified-play-services-measurement-api-19.0.0\AndroidManifest.xml:30:13-32:85
+324                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+324-->[com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\224d0ddd60dee798f42b6baf8f5a3f14\jetified-play-services-measurement-api-19.0.0\AndroidManifest.xml:31:17-139
+325                android:value="com.google.firebase.components.ComponentRegistrar" />
+325-->[com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\224d0ddd60dee798f42b6baf8f5a3f14\jetified-play-services-measurement-api-19.0.0\AndroidManifest.xml:32:17-82
+326            <meta-data
+326-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\1632c821a9a09dfbd27b4a9f0c99ad78\jetified-firebase-installations-17.0.0\AndroidManifest.xml:18:13-20:85
+327                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+327-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\1632c821a9a09dfbd27b4a9f0c99ad78\jetified-firebase-installations-17.0.0\AndroidManifest.xml:19:17-127
+328                android:value="com.google.firebase.components.ComponentRegistrar" />
+328-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\1632c821a9a09dfbd27b4a9f0c99ad78\jetified-firebase-installations-17.0.0\AndroidManifest.xml:20:17-82
+329        </service>
+330        <service
+330-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\8670f232e83e5709e00daca6e6e6b4eb\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:29:9-35:19
+331            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+331-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\8670f232e83e5709e00daca6e6e6b4eb\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:30:13-103
+332            android:exported="false" >
+332-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\8670f232e83e5709e00daca6e6e6b4eb\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:31:13-37
+333            <meta-data
+333-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\8670f232e83e5709e00daca6e6e6b4eb\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:32:13-34:39
+334                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+334-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\8670f232e83e5709e00daca6e6e6b4eb\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:33:17-94
+335                android:value="cct" />
+335-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\8670f232e83e5709e00daca6e6e6b4eb\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:34:17-36
+336        </service>
+337        <service
+337-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\038700b574d347316927954745827e52\jetified-transport-runtime-3.0.0\AndroidManifest.xml:26:9-30:19
+338            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+338-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\038700b574d347316927954745827e52\jetified-transport-runtime-3.0.0\AndroidManifest.xml:27:13-117
+339            android:exported="false"
+339-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\038700b574d347316927954745827e52\jetified-transport-runtime-3.0.0\AndroidManifest.xml:28:13-37
+340            android:permission="android.permission.BIND_JOB_SERVICE" >
+340-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\038700b574d347316927954745827e52\jetified-transport-runtime-3.0.0\AndroidManifest.xml:29:13-69
+341        </service>
+342
+343        <receiver
+343-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\038700b574d347316927954745827e52\jetified-transport-runtime-3.0.0\AndroidManifest.xml:32:9-34:40
+344            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+344-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\038700b574d347316927954745827e52\jetified-transport-runtime-3.0.0\AndroidManifest.xml:33:13-132
+345            android:exported="false" />
+345-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\038700b574d347316927954745827e52\jetified-transport-runtime-3.0.0\AndroidManifest.xml:34:13-37
+346        <receiver
+346-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\131fb59362cae88584ae8cf6bd3cdbc5\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:29:9-33:20
+347            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+347-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\131fb59362cae88584ae8cf6bd3cdbc5\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:30:13-85
+348            android:enabled="true"
+348-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\131fb59362cae88584ae8cf6bd3cdbc5\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:31:13-35
+349            android:exported="false" >
+349-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\131fb59362cae88584ae8cf6bd3cdbc5\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:32:13-37
+350        </receiver>
+351
+352        <service
+352-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\131fb59362cae88584ae8cf6bd3cdbc5\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:35:9-38:40
+353            android:name="com.google.android.gms.measurement.AppMeasurementService"
+353-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\131fb59362cae88584ae8cf6bd3cdbc5\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:36:13-84
+354            android:enabled="true"
+354-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\131fb59362cae88584ae8cf6bd3cdbc5\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:37:13-35
+355            android:exported="false" />
+355-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\131fb59362cae88584ae8cf6bd3cdbc5\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:38:13-37
+356        <service
+356-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\131fb59362cae88584ae8cf6bd3cdbc5\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:39:9-43:72
+357            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+357-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\131fb59362cae88584ae8cf6bd3cdbc5\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:40:13-87
+358            android:enabled="true"
+358-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\131fb59362cae88584ae8cf6bd3cdbc5\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:41:13-35
+359            android:exported="false"
+359-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\131fb59362cae88584ae8cf6bd3cdbc5\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:42:13-37
+360            android:permission="android.permission.BIND_JOB_SERVICE" />
+360-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\131fb59362cae88584ae8cf6bd3cdbc5\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:43:13-69
+361
+362        <provider
+362-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\e6268ea9a6396d5ccd837a59227ce30d\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+363            android:name="com.google.firebase.provider.FirebaseInitProvider"
+363-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\e6268ea9a6396d5ccd837a59227ce30d\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+364            android:authorities="com.servatafarinan.firebaseinitprovider"
+364-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\e6268ea9a6396d5ccd837a59227ce30d\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+365            android:directBootAware="true"
+365-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\e6268ea9a6396d5ccd837a59227ce30d\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+366            android:exported="false"
+366-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\e6268ea9a6396d5ccd837a59227ce30d\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+367            android:initOrder="100" />
+367-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\e6268ea9a6396d5ccd837a59227ce30d\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+368
+369        <meta-data
+369-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\1d78b1770fd27d0cf84005d63c5c0c8d\jetified-play-services-basement-17.5.0\AndroidManifest.xml:23:9-25:69
+370            android:name="com.google.android.gms.version"
+370-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\1d78b1770fd27d0cf84005d63c5c0c8d\jetified-play-services-basement-17.5.0\AndroidManifest.xml:24:13-58
+371            android:value="@integer/google_play_services_version" />
+371-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\1d78b1770fd27d0cf84005d63c5c0c8d\jetified-play-services-basement-17.5.0\AndroidManifest.xml:25:13-66
+372
+373        <service
+373-->[androidx.room:room-runtime:2.1.0] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\3a34a0153df3afbfce6dd1b29c59aaf2\room-runtime-2.1.0\AndroidManifest.xml:25:9-27:40
+374            android:name="androidx.room.MultiInstanceInvalidationService"
+374-->[androidx.room:room-runtime:2.1.0] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\3a34a0153df3afbfce6dd1b29c59aaf2\room-runtime-2.1.0\AndroidManifest.xml:26:13-74
+375            android:exported="false" />
+375-->[androidx.room:room-runtime:2.1.0] C:\Users\Alireza\.gradle\caches\transforms-2\files-2.1\3a34a0153df3afbfce6dd1b29c59aaf2\room-runtime-2.1.0\AndroidManifest.xml:27:13-37
+376    </application>
+377
+378</manifest>
